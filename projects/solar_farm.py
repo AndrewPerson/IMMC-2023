@@ -20,9 +20,6 @@ class SolarFarm(Project):
 
         #Also check ballpark figures from https://www.skystreamenergy.com/how-many-acres-are-needed-for-a-1-mw-solar-farm/
 
-        # Trees per hectare from TODO
-        # Tree replanting cost from TODO
-
         # Time for regeneration from https://www.openaccessgovernment.org/natural-regeneration/129359/
         # "species diversity takes 60 years"
 
@@ -67,7 +64,6 @@ class SolarFarm(Project):
 
         return income - maintenance
 
-    #TODO Take into account taking down the solar array
     def get_cleanup_cost(self, data_tile: DataTile) -> float:
         M2_PER_HA = 10000
         trees = data_tile.area / M2_PER_HA * data_tile.tree_cover.value / 100 * self.trees_per_hectare

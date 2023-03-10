@@ -3,9 +3,6 @@ from projects import projects
 from data import Data
 import csv
 
-#TODO Sensitivity analysis
-#TODO Export data in a csv for CHARTS!!!
-
 data = Data.from_csv("./data.csv")
 
 years = int(input("Number of years: "))

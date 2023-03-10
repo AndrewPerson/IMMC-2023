@@ -7,9 +7,6 @@ from farm import Farm
 class AgrivoltaicFarm(Project):
     @classmethod
     def get_default(cls) -> "Project":
-        # Density appears appears for both appears to be the exact same as in a regular farm/solar farm.
-        # TODO Find some more reliable statistics.
-
         return cls(SolarFarm.get_default(), .9, Farm.get_default(), 1)
 
     solar_farm_percent: float  # 0..1 for % of land covered by solar panels

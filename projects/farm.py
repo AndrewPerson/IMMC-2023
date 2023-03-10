@@ -10,14 +10,9 @@ class Farm(Project):
     @classmethod
     def get_corn(cls) -> "Farm":
         # Seed cost from https://agecon.ca.uky.edu/grain-profitability-outlook-2022
-        # Fertiliser usage from TODO
         # Fertiliser cost calculated from https://agecon.ca.uky.edu/grain-profitability-outlook-2022
-        # Water usage from TODO
-        # Water cost from TODO
         # Extra costs from https://agecon.ca.uky.edu/grain-profitability-outlook-2022
         # Corn yield from https://www.dtnpf.com/agriculture/web/ag/crops/article/2022/11/16/acre-corn-cost-19-raise-2022-usda
-        # Trees per hectare from TODO
-        # Tree replanting cost from TODO
 
         # Time for regeneration from https://www.openaccessgovernment.org/natural-regeneration/129359/
         # "species diversity takes 60 years"
