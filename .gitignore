@@ -1,0 +1,11 @@
+/.vscode
+/__pycache__
+/agrivoltaic_results.csv
+/agrivoltaic_sensitivity.csv
+/data.csv
+/electricity_prices.ods
+/farm_results.csv
+/farm_sensitivity.csv
+/landCoverMap.csv
+/solar_farm_results.csv
+/solar_farm_sensitivity.csv
